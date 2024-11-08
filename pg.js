@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll("section img");
     const urls = [
-        'pagina1.html',
+        'pgpu.html',
         'pagina2.html',
         'pg3.html',
         'pagina4.html',

@@ -1,7 +1,10 @@
 section {
     display: flex;
-    width: 1510px;
-    height: 810px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
 }
 
 section img {
@@ -10,6 +13,8 @@ section img {
     object-fit: cover;
     opacity: .3;
     transition: width 0.5s ease, opacity 0.5s ease, filter 0.5s ease; 
+    
+    
 }
 
 section img:hover {
