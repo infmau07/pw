@@ -1,0 +1,37 @@
+.color{
+    margin-left: 100px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    width: 600px;
+    height: 100%;
+}
+.color p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333; 
+}
+.color {
+    padding: 20px; /*Espaciado interno */
+    background-color: #d5f5e3; /* Verde pastel */
+    box-shadow: 5px 5px 15px #0000001a, -5px -5px 15px #ffffffcc; /* Sombra sutil */
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out, background-color 0.5s ease-in-out; /* Transiciones */
+}
+.color:hover {
+    transform: scale(1.05); /* Efecto zoom */
+    box-shadow: 10px 10px 25px #00000033, -10px -10px 25px #ffffffe6; /* Sombra más intensa */
+    background-color: #a2e8c0; /* Cambio a un verde más brillante */
+}
+h1 {
+    font-size: 2rem;
+    margin-left: 110px;
+    color: #1abc9c; 
+    margin-bottom: 5px; 
+}
+body {
+    /*background: linear-gradient(135deg, #f8f9fa, #d1f2eb);*/
+    background-image: url('/IMG/5hori.png');
+    background-repeat: repeat;
+    background-size: cover;
+    
+}

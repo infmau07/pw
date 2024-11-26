@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.top-bar{
+    display: block;
+    background-color: #80DAEB;
+    color: #0b1642;
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 17px;
+}
+.top-bar .contacto{
+    display: flex;
+    gap: 20px;
+}
+.top-bar .contacto a{
+    color: #0e1328;
+    text-decoration: none;
+    align-items: center;
+}
+.top-bar .contacto i{
+    margin-right: 3px;
+}
+.top-bar .redes-sociales{
+    display: flex;
+    gap: 15px;
+    margin-left: 40px;
+}
+.top-bar .redes-sociales a{
+    color: #0b1642;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
